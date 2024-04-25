@@ -13,8 +13,9 @@ function App() {
 
   return (
     <div className="h-screen w-screen grid grid-cols-12">
+      
       <div className=" col-span-3 p-2">
-        <LocationSerach />
+        <LocationSerach  onPlaceClick={(p)=> setPlace(p)}/>
       </div>
       
       <div className="col-span-9">
